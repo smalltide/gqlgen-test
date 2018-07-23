@@ -1,0 +1,11 @@
+schema: schema.graphql
+exec:
+  filename: graph/generated.go
+model:
+  filename: model/generated.go
+
+models:
+  Todo:
+    model: gqlgen-test/model.Todo
+  User:
+    model:  gqlgen-test/model.User
